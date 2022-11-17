@@ -57,11 +57,11 @@ const FileManager = observer((props: FileManagerProps) => {
           </ButtonGroup>
           {/* Left side nav links */}
           <div className="email-menu-list mt-3">
-            <Link to="#">
+            <Link to="/my_data">
               <i className="mdi mdi-folder-outline font-18 align-middle me-2"></i>
               My Data
             </Link>
-            <Link to="#">
+            <Link to="/public_data">
               <i className="mdi mdi-earth font-18 align-middle me-2"></i>
               Public Data
             </Link>

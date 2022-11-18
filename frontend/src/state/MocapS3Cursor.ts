@@ -702,7 +702,7 @@ class MocapS3Cursor {
         }
         this.subjectJson.setAttribute("email", this.userEmail, true);
 
-        if (window.confirm("Processed results will be shared with the community under a CC 3.0 License. Is that ok?")) {
+        if (window.confirm("Processed results will be shared with the community under a CC BY 4.0 License. Is that ok?")) {
             return this.rawCursor.uploadChild("READY_TO_PROCESS", "");
         }
         else {
